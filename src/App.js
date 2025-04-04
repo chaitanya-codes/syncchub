@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./styles/styles.css";
 import Box from "./Box";
-
 function App() {
 	const totalBoxes = 6 * 15;
 	const [highlighted, setHighlighted] = useState([]);
